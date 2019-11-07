@@ -204,7 +204,7 @@ def change_position():
 def countdown():
   global timer, timer_up
   counter_t.clear()
-  if timer  <= 5:
+  if timer  <= 6:
     if timer % 2 == 0:
       counter_t.pencolor("red")
     if timer % 2 == 1:
